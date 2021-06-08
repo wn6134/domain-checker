@@ -1,5 +1,5 @@
 # domain-checker
-Collects nameservers and IP addresses for provided list of domains
+Collects nameservers and IP addresses for provided list of domains.
 
 Requirements: 
    * python3

@@ -51,7 +51,7 @@ if __name__ == '__main__':
         f = open(args.output_filename, 'w')
     for line in sys.stdin:
         domain = line.strip()
-        domain_idna = line.strip().encode('idna').decode()
+        domain_idna = domain.encode('idna').decode()
         print('-----')
         print('Domain:', domain)
         if domain_idna != domain:
